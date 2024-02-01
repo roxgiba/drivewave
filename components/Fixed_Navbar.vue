@@ -32,5 +32,6 @@ import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
   justify-content: right;
   width: 30%;
   margin: auto;
+  letter-spacing: 2px;
 }
 </style>

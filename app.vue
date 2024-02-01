@@ -1,16 +1,17 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue";
 import Fixed_Navbar from "@/components/Fixed_Navbar.vue";
-
-import imgUrl from "./public/imgUrl.avif";
+import Search from "@/components/Search.vue";
+import imgUrl from "@/assets/imgUrl.png";
 </script>
 
 <template>
   <div class="app">
     <Navbar />
     <Fixed_Navbar />
-    <div class="bg-cover bg-center">
-      <img :src="imgUrl" />
+    <Search />
+    <div class="image_bg">
+      <img :src="imgUrl" alt="mountains" />
     </div>
   </div>
 </template>
@@ -20,5 +21,13 @@ import imgUrl from "./public/imgUrl.avif";
 
 .app {
   font-family: "Encode Sans", sans-serif;
+}
+
+img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
 }
 </style>

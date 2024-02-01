@@ -16,10 +16,19 @@
   height: 100%;
   width: 100%;
   font-weight: bold;
-
   font-size: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
+
+  @media screen and (max-width: 768px) {
+    /* Adjust the font size for screens up to 768 pixels wide */
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 576px) {
+    /* Adjust the font size for screens up to 576 pixels wide */
+    font-size: 12px;
+  }
 }
 .logo {
   background-color: #6bbbae;
@@ -37,6 +46,16 @@
 .logo_name {
   color: white;
   font-size: 40px;
+
+  @media screen and (max-width: 768px) {
+    /* Adjust the font size for screens up to 768 pixels wide */
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 576px) {
+    /* Adjust the font size for screens up to 576 pixels wide */
+    font-size: 20px;
+  }
 }
 .help {
   align-self: center;
