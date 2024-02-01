@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar.vue";
 import Fixed_Navbar from "@/components/Fixed_Navbar.vue";
 import Search from "@/components/Search.vue";
+import Description from "@/components/Description.vue";
 // import imgUrl from "@/assets/imgUrl.png";
 </script>
 
@@ -14,6 +15,7 @@ import Search from "@/components/Search.vue";
     <main>
       <Search />
     </main>
+    <Description />
   </div>
 </template>
 
