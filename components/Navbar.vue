@@ -36,7 +36,7 @@
   height: 100%;
   width: 100%;
   font-weight: bold;
-  font-family: Encode Sans;
+  font-family: "Encode Sans", sans-serif;
   font-size: 16px;
   display: flex;
   justify-content: space-around;

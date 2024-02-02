@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   components: [
     {
       path: "/components",
+      path: "/assets",
     },
   ],
 });
