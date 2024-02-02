@@ -24,6 +24,7 @@ import Description from "@/components/Description.vue";
 
 * {
   box-sizing: content-box;
+  margin: 0;
 }
 
 .app {

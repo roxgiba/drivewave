@@ -18,7 +18,9 @@
 
 <style>
 .description {
-  margin: auto;
+  margin: 60px auto;
   text-align: center;
+  line-height: 30px;
+  font-family: "Encode Sans", sans-serif;
 }
 </style>

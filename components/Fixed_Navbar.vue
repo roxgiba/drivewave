@@ -19,6 +19,8 @@ import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
   justify-content: space-between;
   width: 70%;
   margin: 20px auto;
+  font-family: "Encode Sans", sans-serif;
+  position: sticky;
 }
 
 .dropdown {

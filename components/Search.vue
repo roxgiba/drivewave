@@ -42,12 +42,12 @@ main {
   display: flex;
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
+  font-family: "Encode Sans", sans-serif;
 }
 
 .form-container {
-  width: fit-content; /* Adjust the width of the section */
-  padding: 10px;
-  padding-top: 5px;
+  padding: 30px;
+  padding-top: 15px;
   background-color: rgb(
     255,
     255,
@@ -77,26 +77,51 @@ main {
   padding: 5px;
 }
 
+h1 {
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
 .white {
-  background-color: white;
+  background-color: #ffffff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border: none;
   padding: 10px;
   margin-right: 5px;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.white:hover {
+  text-decoration: underline;
+}
+
+.yellow:hover {
+  text-decoration: underline;
 }
 
 .yellow {
-  background-color: orange;
+  background-color: #f9b104;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border: none;
   padding: 10px;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-align: left;
+  cursor: pointer;
 }
 
 input {
   border: none;
   width: 300px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .search {
@@ -111,6 +136,15 @@ input {
   height: inherit;
   padding: 13px;
   place-self: center;
+  cursor: pointer;
 }
-/* Add any additional styling as needed */
+
+fieldset {
+  border-color: #a1a0a6;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 12px;
+}
 </style>
